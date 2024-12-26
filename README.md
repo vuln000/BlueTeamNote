@@ -1,4 +1,4 @@
-这一份在蓝队工作中的实战笔记，一方面是自己学习总结、另一方面是希望帮助到新人快速入门、大家共同进步。
+这一份在蓝队工作中的实战笔记。
 
 该项目主要介绍了各类安全事件的监测发现及应急处置指南，侧重于如何快速发现问题和解决问题。
 
@@ -29,7 +29,6 @@
 | python-oletools | ole文件处理、提取工具 | https://github.com/decalage2/oletools |
 | proxifier | 流量代理工具（<font style="color:rgb(51, 51, 51);">5EZ8G-C3WL5-B56YG-SCXM9-6QZAP</font>） | https://www.proxifier.com/download/ |
 | reqable | API调试工具 | https://reqable.com/zh-CN/ |
-| OLEtool |  | https://github.com/decalage2/oletools |
 
 
 # Linux动态分析工具
@@ -44,4 +43,3 @@
 | 工具名 | 描述 | 下载地址 |
 | --- | --- | --- |
 | nginx_log_check | Nginx日志分析工具 | https://github.com/al0ne/nginx_log_check |
-|  |  |  |
