@@ -10,3 +10,38 @@
 
 
 持续更新中
+
+
+# Windows动态分析工具
+| 工具名 | 描述 | 下载地址 |
+| --- | --- | --- |
+| ApateDNS | 一款免费的 DNS 服务器,可以用来分析和监控 DNS 查询。 | https://archive.org/details/apateDNS |
+| X64DBG | 一款强大的开源调试器,可用于分析和调试 64 位 Windows 应用程序。 | https://github.com/x64dbg/x64dbg |
+| Regshot | 一个免费的注册表快照工具,可以比较两个注册表快照并查找差异。 | https://sourceforge.net/projects/regshot/ |
+| NetworkMonitor | 一款免费的网络分析工具,可以捕获和分析网络流量。 | https://www.microsoft.com/download/details.aspx?id=4865 |
+| ProcessExplorer | 一个免费的进程管理工具,可以深入了解正在运行的进程。 | https://learn.microsoft.com/en-us/sysinternals/ |
+| ProcessMonitor | 一个免费的高级监视实用程序,可以监视文件系统、注册表和进程活动。 | https://learn.microsoft.com/en-us/sysinternals/ |
+| ProcessHacker	 | 一个强大的免费开源进程管理工具,可以监视和管理系统进程。 | https://processhacker.sourceforge.io/ |
+| 火绒剑独立版 | 杀毒软件、系统分析工具 | https://github.com/szdyg/HRSword |
+| everything | 高效文件查找软件 | https://www.voidtools.com/zh-cn/ |
+| LastActivityView | 查看系统运行所有痕迹 | https://www.nirsoft.net/utils/computer_activity_view.html |
+| Autoruns | 查看系统自启目录 | https://learn.microsoft.com/en-us/sysinternals/downloads/autoruns |
+| python-oletools | ole文件处理、提取工具 | https://github.com/decalage2/oletools |
+| proxifier | 流量代理工具（<font style="color:rgb(51, 51, 51);">5EZ8G-C3WL5-B56YG-SCXM9-6QZAP</font>） | https://www.proxifier.com/download/ |
+| reqable | API调试工具 | https://reqable.com/zh-CN/ |
+| OLEtool |  | https://github.com/decalage2/oletools |
+
+
+# Linux动态分析工具
+| 工具名 | 描述 | 下载地址 |
+| --- | --- | --- |
+| Sysmon for Linux | 系统活动监视工具 | https://github.com/Sysinternals/SysmonForLinux?tab=readme-ov-file |
+| Whoamifuck | 常规排查分析工具 | https://github.com/enomothem/Whoamifuck |
+| GScan | 应急排查自动化python工具 | https://github.com/shengshengli/GScan |
+
+
+# 中间件日志分析工具
+| 工具名 | 描述 | 下载地址 |
+| --- | --- | --- |
+| nginx_log_check | Nginx日志分析工具 | https://github.com/al0ne/nginx_log_check |
+|  |  |  |
