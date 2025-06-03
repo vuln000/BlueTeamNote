@@ -1,45 +1,24 @@
-这一份在蓝队工作中的实战笔记。
+这一份在蓝队工作中的**实战实战实战**笔记（重要的事情说三遍）。
 
-该项目主要介绍了各类安全事件的监测发现及应急处置指南，侧重于如何快速发现问题和解决问题。
-
-可能会补充一些实战总结出的解决方案和方法论。
-
-可能会补充一些安全运营的知识和总结、与反思。
-
-可能会补充一些APT跟踪研究与APT事件发现经验。
+该项目主要介绍了各类安全事件的监测发现及应急处置指南，侧重于如何快速发现问题和解决问题。目前首先更新的是应急处置的部分，后续不断调整目录结构再继续完善。
 
 
-持续更新中
+## 目录结构
+- [基础知识库](./基础知识库)
+  - [安全专用设备合集](./基础知识库/安全专用设备合集.md)
+  - [常用开源工具合集](./基础知识库/常用开源工具合集.md)
+- [取证、镜像留存及善后工作](./取证、镜像留存及善后工作)
+  - [内存镜像制作及分析](./取证、镜像留存及善后工作/内存镜像制作及分析.md)
+  - [系统虚拟化留存取证](./取证、镜像留存及善后工作/系统虚拟化留存取证.md)
+- [如何迅速定位可疑进程和样本](./如何迅速定位可疑进程和样本)
+  - [JAVA内存马简介及查杀方法](./如何迅速定位可疑进程和样本/JAVA内存马简介及查杀方法.md)
+  - [使用特征字符串从内存中定位恶意进程](./如何迅速定位可疑进程和样本/使用特征字符串从内存中定位恶意进程.md)
+  - [短暂网络活动(域名或IP)定位恶意进程](./如何迅速定位可疑进程和样本/短暂网络活动(域名或IP)定位恶意进程.md)
+  - [通过时间信息定位恶意进程和样本](./如何迅速定位可疑进程和样本/通过时间信息定位恶意进程和样本.md)
+- [如何判定可疑样本是否恶意](./如何判定可疑样本是否恶意)(待更。。。。。)
+  - [静态分析要看些什么](./如何判定可疑样本是否恶意/静态分析要看些什么.md)
+  - [动态调试一个恶意样本](./如何判定可疑样本是否恶意/动态调试一个恶意样本.md)
+  - [为什么不建议上传云沙箱](./如何判定可疑样本是否恶意/为什么不建议上传云沙箱.md)
+- [日志分析指南](./日志分析究竟要看什么)
 
 
-# Windows动态分析工具
-| 工具名 | 描述 | 下载地址 |
-| --- | --- | --- |
-| ApateDNS | 一款免费的 DNS 服务器,可以用来分析和监控 DNS 查询。 | https://archive.org/details/apateDNS |
-| X64DBG | 一款强大的开源调试器,可用于分析和调试 64 位 Windows 应用程序。 | https://github.com/x64dbg/x64dbg |
-| Regshot | 一个免费的注册表快照工具,可以比较两个注册表快照并查找差异。 | https://sourceforge.net/projects/regshot/ |
-| NetworkMonitor | 一款免费的网络分析工具,可以捕获和分析网络流量。 | https://www.microsoft.com/download/details.aspx?id=4865 |
-| ProcessExplorer | 一个免费的进程管理工具,可以深入了解正在运行的进程。 | https://learn.microsoft.com/en-us/sysinternals/ |
-| ProcessMonitor | 一个免费的高级监视实用程序,可以监视文件系统、注册表和进程活动。 | https://learn.microsoft.com/en-us/sysinternals/ |
-| ProcessHacker	 | 一个强大的免费开源进程管理工具,可以监视和管理系统进程。 | https://processhacker.sourceforge.io/ |
-| 火绒剑独立版 | 杀毒软件、系统分析工具 | https://github.com/szdyg/HRSword |
-| everything | 高效文件查找软件 | https://www.voidtools.com/zh-cn/ |
-| LastActivityView | 查看系统运行所有痕迹 | https://www.nirsoft.net/utils/computer_activity_view.html |
-| Autoruns | 查看系统自启目录 | https://learn.microsoft.com/en-us/sysinternals/downloads/autoruns |
-| python-oletools | ole文件处理、提取工具 | https://github.com/decalage2/oletools |
-| proxifier | 流量代理工具（<font style="color:rgb(51, 51, 51);">5EZ8G-C3WL5-B56YG-SCXM9-6QZAP</font>） | https://www.proxifier.com/download/ |
-| reqable | API调试工具 | https://reqable.com/zh-CN/ |
-
-
-# Linux动态分析工具
-| 工具名 | 描述 | 下载地址 |
-| --- | --- | --- |
-| Sysmon for Linux | 系统活动监视工具 | https://github.com/Sysinternals/SysmonForLinux?tab=readme-ov-file |
-| Whoamifuck | 常规排查分析工具 | https://github.com/enomothem/Whoamifuck |
-| GScan | 应急排查自动化python工具 | https://github.com/shengshengli/GScan |
-
-
-# 中间件日志分析工具
-| 工具名 | 描述 | 下载地址 |
-| --- | --- | --- |
-| nginx_log_check | Nginx日志分析工具 | https://github.com/al0ne/nginx_log_check |
